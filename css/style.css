@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Gugi&family=Notable&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    background-color: #565656;
+}
+.navbar-brand {
+    font-family: 'East Sea Dokdo', cursive;
+    color: white;
+    font-size: 40px;
+    margin-left: 10%;
+    
+}
+.navbar-nav a {
+    color: white;
+    font-family: 'Notable', sans-serif;
+
+    
+}
+.navbar-nav {
+    margin-right: 10%;
+    
+}
+.dropdown-menu { 
+    background-color: black;
+   
+    
+}
+.navbar-toggler {
+    background-color: white;
+    margin-right: 10%;
+}
+
+h1 {
+    font-family:'Public Sans', sans-serif;
+    font-size: 60px;
+    color: white;
+    padding-top: 15%;
+
+}
+h2{
+    font-family:'Public Sans', sans-serif;
+    font-size: 34px;
+    color: #282C73;
+    font-weight: 700;
+
+}
+.jumbotron {
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    background-image: url('../images/jumbotron_img3.png');    
+}
+
+p {
+    font-family:'Public Sans', sans-serif;
+    color: white;
+    padding-bottom: 15%;
+}
+p2 {
+    font-family:'Public Sans', sans-serif;
+
+}
+.container_intro img {
+    display: inline-block;
+    width:100%;
+    
+
+}
+.info {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.overview {
+    text-align: center;
+    margin-bottom: 10%;
+}
+hr {
+    border: 3px solid #282C73;
+    width: 300px;
+    opacity: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 21px;
+    
+}
+
+.problem {
+    padding-bottom: 51px;
+}
+
+img {
+    display: inline-block;
+    width:100%;
+    margin-bottom: 10%;
+    
+}
+
+.user_test h2 {
+    padding-top: 20%;
+}
+
+.list-group {
+    text-align: left;
+}
+.UI {
+    margin-top: 5%;
+}
+.UI_img {
+    margin-top: 5%;
+    
+}
+.accordion {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+
+}
+
+.btn {
+    font-family:'Public Sans', sans-serif;
+}
+
+.card-body {
+    color: #EA2829;
+    font-weight: 700;
+    font-family:'Public Sans', sans-serif;
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+    .container_intro img {
+        display: inline-block;
+        width:100%;
+    }
+    .jumbotron {
+        
+    }
+}
+@media only screen and (max-width: 1200px) {
+
+}
